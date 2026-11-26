@@ -19,7 +19,10 @@ description: Script, storyboard, generate keyframes for, or animate Shorts for d
 
 ## Flipbook
 
-Build each shot as a full-bleed HyperFrames scene with a defined place, props, support surfaces, and coordinated character motion. Use look-development mockups as references for the local rigs by default. Lock gestures and reactions to dialogue cues. Check contact sheets for missing props, floating objects, facing errors, and caption overlap before export.
+- **2D Animated Stories:** Build each shot as a full-bleed HyperFrames scene with a defined place, props, support surfaces, and coordinated character motion. Use look-development mockups as references for the local rigs by default.
+- **3D Tactile Clay-Vinyl Diorama + AE Finishing:** Build smooth rounded polymer-clay/vinyl rigs and miniature sets in Blender 5.2+ EEVEE (`AgX - Punchy`, shallow tilt-shift DoF, zero Roblox blocks), inspect a 6-shot 3D look-dev proof sheet before rendering animated clips (15 fps stop-motion on twos encoded to 30 fps H.264 with `-g 30`), and finish in HyperFrames + GSAP with After Effects-grade whip-pans, impact flashes, damped camera shakes, animated live story HUDs, kinetic callouts, and color-coded captions.
+- **Strict Quoted-Only Lip-Sync Gate:** Never drive on-screen character mouth movement from narrator voiceover lines. Keep character mouths cleanly closed (smiling, frowning, reacting silently via eyes/brows/hands) during all narrator lines, and open/animate lip-sync mouths strictly on the exact millisecond timestamps of quoted dialogue spoken by that on-screen character.
+- Check contact sheets for missing props, floating objects, facing/occlusion errors, unintended lip-sync, and caption overlap before export.
 
 ## Timeline Anomalies
 
